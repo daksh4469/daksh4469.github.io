@@ -838,6 +838,91 @@ SKILLS PAGE
     font-weight: 800;
 }
 
+@media (max-width: 540px){
+    .back1{
+        background: #252A34;
+        height: 100vh;
+    }
+    
+    .skills-heading{
+        color: rgba(234, 234, 234, 0.1);
+        font-size: 80px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 130px;
+        position: absolute;
+        z-index: 10;
+        left: 30px;
+        top: 190px;
+        bottom: 0px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    .second-red-bar{
+        background: #FF2E63;
+        height: 50vh;
+        width: 100vw;
+        position: absolute;
+        top: 320px;
+        left: 0;
+        z-index: 2;
+    }
+    
+    .second-blue-bar{
+        background: #08d9d6;
+        height: 50vw;
+        width: 100vw;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        top: 725px;
+        z-index: 2;
+    }
+    
+    .quote{
+        position: absolute;
+        z-index: 10;
+        margin: auto;
+        color: #EAEAEA;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        width: 100vw;
+        text-align: justify;
+        top: 120px;
+        left: 0;
+        padding: 0 25px;
+    }
+    
+    .red-skills ul{
+        list-style: none;
+        color: #EAEAEA;
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+        top: 450px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    .blue-skills ul{
+        list-style: none;
+        color: #252A34;
+        font-family: 'Poppins', sans-serif;
+        position: absolute;
+        z-index: 2;
+        left: 40px;
+        top: 100vh;
+        font-size: 40px;
+        font-weight: 800;
+    }
+}
+
+
 /*
 Contact Page
 */
